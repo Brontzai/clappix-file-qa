@@ -134,6 +134,15 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Secrets
+credentials.json
+service_account.json
+
+# Upload scripts (not part of the bot)
+upload_to_drive.py
+upload_files.py
+create_structure.py
+
 # Environments
 .env
 .envrc
